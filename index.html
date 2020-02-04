@@ -1,178 +1,179 @@
-<html>
+<html lang="ko">
 <head>
- <title>ÀºÁø °í»ç</title>
+ <meta charset="UTF-8">
+ <title>ì€ì§„ ê³ ì‚¬</title>
 </head>
 <body>
- <h1>ÀºÁø°í»ç 1±Ş ¹®Á¦</h1>
- <p> 1. ´ÙÀ½ Áß ÀºÁøÀÌ°¡ °¡Àå <u>ÁÁ¾ÆÇÏ´Â</u> À½½ÄÀº?</p>
+ <h1>ì€ì§„ê³ ì‚¬ 1ê¸‰ ë¬¸ì œ</h1>
+ <p> 1. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ê°€ ê°€ì¥ <u>ì¢‹ì•„í•˜ëŠ”</u> ìŒì‹ì€?</p>
  <form name="form1">
-  <input type="radio" name="arr1" value="v1">»ï°ã»ì<br>
-  <input type="radio" name="arr1" value="v2">°¨ÀÚÅÁ<br>
-  <input type="radio" name="arr1" value="v3">ÇÇÀÚ<br>
-  <input type="radio" name="arr1" value="v4">»ï°èÅÁ<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion1()">
+  <input type="radio" name="arr1" value="v1">ì‚¼ê²¹ì‚´<br>
+  <input type="radio" name="arr1" value="v2">ê°ìíƒ•<br>
+  <input type="radio" name="arr1" value="v3">í”¼ì<br>
+  <input type="radio" name="arr1" value="v4">ì‚¼ê³„íƒ•<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion1()">
  </form>
  <p id="check1"></p>
  
  <script>
   function myFucntion1() {
-   if(form1.arr1[3].checked==true) document.getElementById("check1").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check1").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form1.arr1[3].checked==true) document.getElementById("check1").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check1").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script> 
  
  
-  <p> 2. ´ÙÀ½ Áß ÀºÁøÀÌ°¡ °¡Àå <u>½È¾îÇÏ´Â</u> À½½ÄÀº?</p>
+  <p> 2. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ê°€ ê°€ì¥ <u>ì‹«ì–´í•˜ëŠ”</u> ìŒì‹ì€?</p>
  <form name="form2">
-  <input type="radio" name="arr2" value="v1">ÇÜ¹ö°Å<br>
-  <input type="radio" name="arr2" value="v2">¼±Áö±¹<br>
-  <input type="radio" name="arr2" value="v3">¼ø´ë±¹<br>
-  <input type="radio" name="arr2" value="v4">ÆÄ½ºÅ¸<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion2()">
+  <input type="radio" name="arr2" value="v1">í–„ë²„ê±°<br>
+  <input type="radio" name="arr2" value="v2">ì„ ì§€êµ­<br>
+  <input type="radio" name="arr2" value="v3">ìˆœëŒ€êµ­<br>
+  <input type="radio" name="arr2" value="v4">íŒŒìŠ¤íƒ€<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion2()">
  </form>
  <p id="check2"></p>
  
  <script>
   function myFucntion2() {
-   if(form2.arr2[1].checked==true) document.getElementById("check2").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check2").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form2.arr2[1].checked==true) document.getElementById("check2").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check2").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
  
-   <p> 3. ´ÙÀ½ Áß ½ÂÈ£¿Í ÀºÁøÀÌÀÇ ¿¬¾Ö ½ÃÀÛÀÏÀº?</p>
+   <p> 3. ë‹¤ìŒ ì¤‘ ìŠ¹í˜¸ì™€ ì€ì§„ì´ì˜ ì—°ì•  ì‹œì‘ì¼ì€?</p>
  <form name="form3">
   <input type="radio" name="arr3" value="v1">3/20<br>
   <input type="radio" name="arr3" value="v2">3/21<br>
   <input type="radio" name="arr3" value="v3">3/22<br>
   <input type="radio" name="arr3" value="v4">3/23<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion3()">
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion3()">
  </form>
  <p id="check3"></p>
  
  <script>
   function myFucntion3() {
-   if(form3.arr3[3].checked==true) document.getElementById("check3").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check3").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form3.arr3[3].checked==true) document.getElementById("check3").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check3").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
-    <p> 4. ´ÙÀ½ Áß ÀºÁøÀÌ°¡ È­°¡ ³­ °æ¿ì°¡ <u>¾Æ´Ñ</u> °ÍÀº?</p>
+    <p> 4. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ê°€ í™”ê°€ ë‚œ ê²½ìš°ê°€ <u>ì•„ë‹Œ</u> ê²ƒì€?</p>
  <form name="form4">
-  <input type="radio" name="arr4" value="v1">±¸Âî °¡¹æÀ» ¼±¹° ¹Ş¾ÒÀ» ¶§<br>
-  <input type="radio" name="arr4" value="v2">½ÂÈ£°¡ ´Ê°Ô ¿ÔÀ» ¶§<br>
-  <input type="radio" name="arr4" value="v3">½ÂÈ£ÀÇ ¼±¹°ÀÌ Á¡Á¡ ÁÙ¾îµé¾úÀ» ¶§<br>
-  <input type="radio" name="arr4" value="v4">½ÂÈ£°¡ ²ÉÀ» »çÁÖÁö ¾Ê¾ÒÀ» ¶§<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion4()">
+  <input type="radio" name="arr4" value="v1">êµ¬ì°Œ ê°€ë°©ì„ ì„ ë¬¼ ë°›ì•˜ì„ ë•Œ<br>
+  <input type="radio" name="arr4" value="v2">ìŠ¹í˜¸ê°€ ëŠ¦ê²Œ ì™”ì„ ë•Œ<br>
+  <input type="radio" name="arr4" value="v3">ìŠ¹í˜¸ì˜ ì„ ë¬¼ì´ ì ì  ì¤„ì–´ë“¤ì—ˆì„ ë•Œ<br>
+  <input type="radio" name="arr4" value="v4">ìŠ¹í˜¸ê°€ ê½ƒì„ ì‚¬ì£¼ì§€ ì•Šì•˜ì„ ë•Œ<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion4()">
  </form>
  <p id="check4"></p>
  
  <script>
   function myFucntion4() {
-   if(form4.arr4[0].checked==true) document.getElementById("check4").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check4").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form4.arr4[0].checked==true) document.getElementById("check4").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check4").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
-     <p> 5. ´ÙÀ½ Áß ÀºÁøÀÌ°¡ °¡°í½ÍÀº ¿©ÇàÁö°¡ <u>¾Æ´Ñ</u> °ÍÀº?</p>
+     <p> 5. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ê°€ ê°€ê³ ì‹¶ì€ ì—¬í–‰ì§€ê°€ <u>ì•„ë‹Œ</u> ê²ƒì€?</p>
  <form name="form5">
-  <input type="radio" name="arr5" value="v1">ÇªÄÏ<br>
-  <input type="radio" name="arr5" value="v2">»çÀÌÆÇ<br>
-  <input type="radio" name="arr5" value="v3">ÀÏº»<br>
-  <input type="radio" name="arr5" value="v4">¹ß¸®<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion5()">
+  <input type="radio" name="arr5" value="v1">í‘¸ì¼“<br>
+  <input type="radio" name="arr5" value="v2">ì‚¬ì´íŒ<br>
+  <input type="radio" name="arr5" value="v3">ì¼ë³¸<br>
+  <input type="radio" name="arr5" value="v4">ë°œë¦¬<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion5()">
  </form>
  <p id="check5"></p>
  
  <script>
   function myFucntion5() {
-   if(form5.arr5[2].checked==true) document.getElementById("check5").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check5").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form5.arr5[2].checked==true) document.getElementById("check5").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check5").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
-      <p> 6. ´ÙÀ½ Áß ÀºÁøÀÌÀÇ ¿Ş¼Õ ³×¹øÂ° ¹İÁö »çÀÌÁî´Â?</p>
+      <p> 6. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ì˜ ì™¼ì† ë„¤ë²ˆì§¸ ë°˜ì§€ ì‚¬ì´ì¦ˆëŠ”?</p>
  <form name="form6">
-  <input type="radio" name="arr6" value="v1">6È£<br>
-  <input type="radio" name="arr6" value="v2">7È£<br>
-  <input type="radio" name="arr6" value="v3">8È£<br>
-  <input type="radio" name="arr6" value="v4">9È£<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion6()">
+  <input type="radio" name="arr6" value="v1">6í˜¸<br>
+  <input type="radio" name="arr6" value="v2">7í˜¸<br>
+  <input type="radio" name="arr6" value="v3">8í˜¸<br>
+  <input type="radio" name="arr6" value="v4">9í˜¸<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion6()">
  </form>
  <p id="check6"></p>
  
  <script>
   function myFucntion6() {
-   if(form6.arr6[1].checked==true) document.getElementById("check6").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check6").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form6.arr6[1].checked==true) document.getElementById("check6").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check6").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
-       <p> 7. ´ÙÀ½ Áß ÀºÁøÀÌÀÇ ½Å¹ß »çÀÌÁî´Â?</p>
+       <p> 7. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ì˜ ì‹ ë°œ ì‚¬ì´ì¦ˆëŠ”?</p>
  <form name="form7">
   <input type="radio" name="arr7" value="v1">230mm<br>
   <input type="radio" name="arr7" value="v2">235mm<br>
   <input type="radio" name="arr7" value="v3">240mm<br>
   <input type="radio" name="arr7" value="v4">245mm<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion7()">
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion7()">
  </form>
  <p id="check7"></p>
  
  <script>
   function myFucntion7() {
-   if(form7.arr7[2].checked==true) document.getElementById("check7").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check7").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form7.arr7[2].checked==true) document.getElementById("check7").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check7").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
-        <p> 8. ´ÙÀ½ Áß ÀºÁøÀÌ°¡ °¡Àå ÁÁ¾ÆÇÏ´Â ºßÆä´Â?</p>
+        <p> 8. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ê°€ ê°€ì¥ ì¢‹ì•„í•˜ëŠ” ë·”í˜ëŠ”?</p>
  <form name="form8">
-  <input type="radio" name="arr8" value="v1">ÀÚ¿¬º°°î<br>
-  <input type="radio" name="arr8" value="v2">¾Ö½¶¸®<br>
-  <input type="radio" name="arr8" value="v3">¸¶Å°³ëÂ÷¾ß<br>
-  <input type="radio" name="arr8" value="v4">³ëº¸ÅÚ µğ³Ê<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion8()">
+  <input type="radio" name="arr8" value="v1">ìì—°ë³„ê³¡<br>
+  <input type="radio" name="arr8" value="v2">ì• ìŠë¦¬<br>
+  <input type="radio" name="arr8" value="v3">ë§ˆí‚¤ë…¸ì°¨ì•¼<br>
+  <input type="radio" name="arr8" value="v4">ë…¸ë³´í…” ë””ë„ˆ<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion8()">
  </form>
  <p id="check8"></p>
  
  <script>
   function myFucntion8() {
-   if(form8.arr8[3].checked==true) document.getElementById("check8").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check8").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form8.arr8[3].checked==true) document.getElementById("check8").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check8").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
-         <p> 9. ´ÙÀ½ Áß ÀºÁøÀÌ°¡ È­³¯ ¶§ ÇÏ´Â Çàµ¿ÀÌ ¾Æ´Ñ °ÍÀº?</p>
+         <p> 9. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ê°€ í™”ë‚  ë•Œ í•˜ëŠ” í–‰ë™ì´ ì•„ë‹Œ ê²ƒì€?</p>
  <form name="form9">
-  <input type="radio" name="arr9" value="v1">ÀüÈ­ ¾È¹Ş±â<br>
-  <input type="radio" name="arr9" value="v2">ÀÌ¸ğÆ¼ÄÜ º¸³»±â<br>
-  <input type="radio" name="arr9" value="v3">Ä«Åå ÀĞ¾Ã<br>
-  <input type="radio" name="arr9" value="v4">¼Ò¸®Áö¸£±â<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion9()">
+  <input type="radio" name="arr9" value="v1">ì „í™” ì•ˆë°›ê¸°<br>
+  <input type="radio" name="arr9" value="v2">ì´ëª¨í‹°ì½˜ ë³´ë‚´ê¸°<br>
+  <input type="radio" name="arr9" value="v3">ì¹´í†¡ ì½ì”¹<br>
+  <input type="radio" name="arr9" value="v4">ì†Œë¦¬ì§€ë¥´ê¸°<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion9()">
  </form>
  <p id="check9"></p>
  
  <script>
   function myFucntion9() {
-   if(form9.arr9[1].checked==true) document.getElementById("check9").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check9").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form9.arr9[1].checked==true) document.getElementById("check9").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check9").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
-          <p> 10. ´ÙÀ½ Áß ÀºÁøÀÌ°¡ ¿äÁò ÁÁ¾ÆÇÏ´Â °úÀÚ´Â?</p>
+          <p> 10. ë‹¤ìŒ ì¤‘ ì€ì§„ì´ê°€ ìš”ì¦˜ ì¢‹ì•„í•˜ëŠ” ê³¼ìëŠ”?</p>
  <form name="form10">
-  <input type="radio" name="arr10" value="v1">Á¶Ã»À¯°ú<br>
-  <input type="radio" name="arr10" value="v2">ÄÜÄ¨<br>
-  <input type="radio" name="arr10" value="v3">¿ÀÂ¡¾î¶¥Äá<br>
-  <input type="radio" name="arr10" value="v4">Ä¡Åä½º<br>
-  <input type="button" name="¼±ÅÃ" value="Á¤´äÈ®ÀÎ" onclick="myFucntion10()">
+  <input type="radio" name="arr10" value="v1">ì¡°ì²­ìœ ê³¼<br>
+  <input type="radio" name="arr10" value="v2">ì½˜ì¹©<br>
+  <input type="radio" name="arr10" value="v3">ì˜¤ì§•ì–´ë•…ì½©<br>
+  <input type="radio" name="arr10" value="v4">ì¹˜í† ìŠ¤<br>
+  <input type="button" name="ì„ íƒ" value="ì •ë‹µí™•ì¸" onclick="myFucntion10()">
  </form>
  <p id="check10"></p>
  
  <script>
   function myFucntion10() {
-   if(form10.arr10[0].checked==true) document.getElementById("check10").innerHTML="Á¤´äÀÔ´Ï´Ù.";
-   else document.getElementById("check10").innerHTML="¿À´äÀÔ´Ï´Ù.";
+   if(form10.arr10[0].checked==true) document.getElementById("check10").innerHTML="ì •ë‹µì…ë‹ˆë‹¤.";
+   else document.getElementById("check10").innerHTML="ì˜¤ë‹µì…ë‹ˆë‹¤.";
   }
  </script>
  
